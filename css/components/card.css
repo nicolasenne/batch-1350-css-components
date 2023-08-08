@@ -1,0 +1,59 @@
+/* Card Category */
+
+.card-category {
+  background-image: url(../../images/breakfast.jpg);
+  background-size: cover;
+  width: 300px;
+  height: 200px;
+  border-radius: 4px;
+  color: #fff;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, .2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card Product */
+
+.card-product {
+  width: 600px;
+  height: 200px;
+  background-color: #fff;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, .2);
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.card-product img {
+  height: 100%;
+}
+
+.card-product h2, .card-product p {
+  margin: 0;
+}
+
+/* Card Trip */
+
+.card-trip {
+  background-color: #fff;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, .2);
+  margin-top: 40px;
+}
+
+.card-trip img {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-trip-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 40px
+}
+
+.card-trip h2, .card-trip p {
+  margin: 0;
+}
